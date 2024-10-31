@@ -1,0 +1,13 @@
+body {
+    background-color: #48bdcf;
+}
+
+h1 {
+    color: #e4cfe6;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sekolah SMP</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background: #3fad71; color: rgb(235, 226, 226); padding: 10px; text-align: center; }
+        nav ul { list-style: none; padding: 0; }
+        nav ul li { display: inline; margin: 0 10px; }
+        nav a { color: white; text-decoration: none; }
+        section { padding: 20px; }
+        img { max-width: 100%; height: auto; }
+        .galeri img { width: 30%; margin: 5px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SMP CITRA KARYA</h1>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#layanan">Layanan</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="beranda">
+        <h2>SELAMAT DATANG DI SMP CITRA KARYA</h2>
+        <img src="img/dok-smp-telkom-makassar_169.jpg" alt="Banner Sekolah">
+        <p>Deskripsi singkat tentang sekolah.</p>
+        <p>SMP CITRA KARYA</p>
+        <p>Sekolah ini terletak di pusat kota Jakarta, dikelilingi oleh gedung-gedung tinggi dan berbagai 
+            fasilitas umum.
+            <p> Lingkungan sekitar yang ramai memberikan akses mudah bagi siswa 
+                untuk menjangkau berbagai kebutuhan sehari-hari.</p>
+                <p>Sekolah ini dikenal dengan kualitas pendidikan yang tinggi, sekolah ini telah melahirkan banyak alumni yang sukses di berbagai bidang.</p>
+                <p>Dengan komitmen untuk menciptakan lingkungan belajar yang inspiratif, 
+                    SMP CITRA KARYA terus berupaya untuk memberikan pengalaman pendidikan terbaik bagi siswanya</p>
+        </p>
+    </section>
+
+    <section id="profil">
+        <h2>Profil Sekolah</h2>
+        <img src="img/profilsekolah.jpg"Profil Sekolah">
+        <p>Sejarah, visi, misi, dan informasi penting lainnya.</p>
+    </section>
+
+    <section id="layanan">
+        <h2>Layanan</h2>
+        <img src="img/Layananwebp.webp" alt="Layanan Sekolah">
+        <p></p>
+    </section>
+
+    <section id="galeri">
+        <h2>EKTRA KULIKULER</h2>
+        <p>1.BASKET</p>
+        <P>2.KARATE</P>
+        <P>3.BADMINTON</P>
+        <div class="galeri">
+            <img src="img/basket.jpg" alt="Basket 1">
+            <img src="img/karate1.jpg" alt="Karate 2">
+            <img src="img/badminton.jpg" alt="badminton 3">
+        </div>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak Kami</h2>
+        <h2>ADMINT</h2>
+        <p>Cahya:082324566736</p>
+        
+        <p>Informasi kontak dan formulir untuk menghubungi sekolah.</p>
+        <P></P>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nama Sekolah SMP. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+  
